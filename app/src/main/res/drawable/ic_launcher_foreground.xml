@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="-20">
+        <!-- Hot dog sausage body extending past bun -->
+        <path
+            android:fillColor="#FF5252"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.5"
+            android:pathData="M 22,54 C 22,48 26,45 32,45 L 76,45 C 82,45 86,48 86,54 C 86,60 82,63 76,63 L 32,63 C 26,63 22,60 22,54 Z" />
+        <!-- Bun bottom part -->
+        <path
+            android:fillColor="#FFB74D"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.5"
+            android:pathData="M 28,52 C 28,64 38,67 54,67 C 70,67 80,64 80,52 C 80,48 76,45 76,45 L 32,45 C 32,45 28,48 28,52 Z" />
+        <!-- Bun top part -->
+        <path
+            android:fillColor="#FFE082"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.5"
+            android:pathData="M 30,50 C 30,42 40,39 54,39 C 68,39 78,42 78,50 C 78,54 75,56 70,56 L 38,56 C 33,56 30,54 30,50 Z" />
+        <!-- Mustard drizzle -->
+        <path
+            android:strokeColor="#FFF176"
+            android:strokeWidth="2.8"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M 30,50 C 34,44 36,54 40,48 C 44,42 46,54 50,48 C 54,42 56,54 60,48 C 64,42 66,54 70,48 C 74,42 76,50 78,48" />
+    </group>
+</vector>

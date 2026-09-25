@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <group
+        android:pivotX="60"
+        android:pivotY="60"
+        android:rotation="-15">
+
+        <!-- Bun shadow / bottom curve outline -->
+        <path
+            android:fillColor="?android:attr/colorForeground"
+            android:pathData="M 22,60 C 22,76 38,82 60,82 C 82,82 98,76 98,60 C 98,58 97,55 95,53 C 92,68 78,74 60,74 C 42,74 28,68 25,53 C 23,55 22,58 22,60 Z" />
+
+        <!-- Bun bottom body -->
+        <path
+            android:fillColor="?android:attr/colorBackground"
+            android:strokeColor="?android:attr/colorForeground"
+            android:strokeWidth="4"
+            android:strokeLineJoin="round"
+            android:pathData="M 24,56 C 24,72 38,78 60,78 C 82,78 96,72 96,56 C 96,52 92,48 88,48 L 32,48 C 28,48 24,52 24,56 Z" />
+
+        <!-- Sausage body extending past bun -->
+        <path
+            android:fillColor="?android:attr/colorBackground"
+            android:strokeColor="?android:attr/colorForeground"
+            android:strokeWidth="4"
+            android:strokeLineJoin="round"
+            android:pathData="M 14,56 C 14,48 20,44 28,44 L 92,44 C 100,44 106,48 106,56 C 106,64 100,68 92,68 L 28,68 C 20,68 14,64 14,56 Z" />
+
+        <!-- Top Bun -->
+        <path
+            android:fillColor="?android:attr/colorBackground"
+            android:strokeColor="?android:attr/colorForeground"
+            android:strokeWidth="4"
+            android:strokeLineJoin="round"
+            android:pathData="M 25,50 C 25,38 38,34 60,34 C 82,34 95,38 95,50 C 95,54 90,58 84,58 L 36,58 C 30,58 25,54 25,50 Z" />
+
+        <!-- Mustard wavy line -->
+        <path
+            android:strokeColor="?android:attr/colorForeground"
+            android:strokeWidth="4.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M 22,56 C 26,50 30,62 35,55 C 40,48 44,63 50,56 C 56,49 61,63 67,56 C 73,49 78,63 84,56 C 89,49 93,61 98,56" />
+
+        <!-- Detail cuts on sausage end -->
+        <path
+            android:strokeColor="?android:attr/colorForeground"
+            android:strokeWidth="3"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:pathData="M 17,52 L 20,56 M 18,59 L 21,62" />
+        <path
+            android:strokeColor="?android:attr/colorForeground"
+            android:strokeWidth="3"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:pathData="M 103,52 L 100,56 M 102,59 L 99,62" />
+    </group>
+</vector>

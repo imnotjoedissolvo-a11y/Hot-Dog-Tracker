@@ -1,0 +1,6 @@
+{
+  "name": "Hot Dog Counter",
+  "description": "A minimalist hot dog tracker with milestone confetti animations and home screen widget support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
